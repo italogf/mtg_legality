@@ -2,7 +2,6 @@ import json
 import re
 from sys import argv
 from urllib2 import Request, urlopen, URLError
-from pprint import pprint
 
 url = "https://api.deckbrew.com/mtg/cards"
 
