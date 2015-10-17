@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from json import loads
 from re import sub
 from sys import argv
@@ -25,4 +27,4 @@ try:
 		print item, value
 
 except URLError, e:
-	print 'Nao vou possivel pegar a legalidade da carta'
+	print 'Nao foi possivel encontrar a legalidade da carta, verifique se escreveu o nome correto e entre " (aspas). It was not possible find the legality of the card, make sure that wrote correct  the name and don´t forget to use " (quotes).'
