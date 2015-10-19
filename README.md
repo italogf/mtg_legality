@@ -9,11 +9,12 @@ Simple Python script to show legality of mtg cards using https://deckbrew.com/ap
 [user:~/mtg_legality]$ python mtg_legality.py "Aboshan's Desire"
 ```
 ### output:
+```shell
   https://api.deckbrew.com/mtg/cards/aboshans-desire
   vintage legal
   legacy legal
   commander legal
-
+```
 
 ## Python 3
 ### usage:
