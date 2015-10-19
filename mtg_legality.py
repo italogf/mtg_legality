@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 
 from json import loads
 from re import sub
@@ -27,4 +28,4 @@ try:
 		print item, value
 
 except URLError, e:
-	print 'Nao foi possivel encontrar a legalidade da carta, verifique se escreveu o nome correto e entre " (aspas). It was not possible find the legality of the card, make sure that wrote correct  the name and don´t forget to use " (quotes).'
+	print 'Nao foi possivel encontrar a legalidade da carta, verifique se escreveu o nome correto e entre " (aspas). It was not possible find the legality of the card, make sure that wrote correct the name and don´t forget to use " (quotes).'
