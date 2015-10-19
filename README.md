@@ -1,15 +1,48 @@
 # mtg_legality
 
+Simple Python script to show legality of mtg cards using https://deckbrew.com/api/
+
+## Python 2
+### usage:
+
+```shell
+[user:~/mtg_legality]$ python mtg_legality.py "Aboshan's Desire"
+```
+### output:
+  https://api.deckbrew.com/mtg/cards/aboshans-desire
+  vintage legal
+  legacy legal
+  commander legal
 
 
-Simple python script to show legality of mtg cards using https://deckbrew.com/api/
+## Python 3
+### usage:
 
-usage: [user:~/mtg_legality]$ python mtg_legality.py "Aboshan's Desire"
+```shell
+[user:~/mtg_legality]$ python mtg_legality.py "Aboshan's Desire"
+```
+Or, if the card name is omitted, it'll get the card names from cards.txt file (1 card name per line)
 
-output: https://api.deckbrew.com/mtg/cards/aboshans-desire
+```shell
+[user:~/mtg_legality]$ python mtg_legality.py
+```
 
-vintage legal
+### output:
+```shell
+lightning bolt
+  legacy legal
+  vintage legal
+  modern legal
+  commander legal
 
-legacy legal
+brainstorm
+  legacy legal
+  vintage restricted***
+  commander legal
 
-commander legal
+force of nature
+  legacy legal
+  vintage legal
+  modern legal
+  commander legal
+
